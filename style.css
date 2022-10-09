@@ -8,7 +8,8 @@ nav{
 
      justify-content: space-between;
      background-color: #1a1244;
-     padding: 10px 200px;
+     padding: 10px 100px;
+     border-bottom: 4px solid #04148741;
 }
 nav ul{
      display: flex;
@@ -36,4 +37,39 @@ nav ul li a:hover{
 nav div{
      color: white;
      font-size: 20px;
+}
+
+/* hero area code start */
+header{
+     background-image: url('img/banner-1036483_960_720.jpg');
+     padding: 200px 0;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.searchbox-icon-parent{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.searchbox-icon-parent i{
+     color: red;
+     background-color: green;
+     font-size: 25px;
+     height: 40px;
+     width: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-left: -10px;
+}
+.searchbox-icon-parent input{
+     width: 500px;
+     height: 40px;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 5px 20px;
 }
