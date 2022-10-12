@@ -77,7 +77,7 @@ header{
 /* main section code */
 
 main{
-     background-color: #2d236a;
+     background-color: #2607c2;
      padding-top: 20px;
      
 }
@@ -85,26 +85,26 @@ main{
      width: 1100px;
      /* border: 2px solid red; */
      margin: 0 auto;
-     padding: 40px 0;
+     padding: 50px 0;
 }
-#latest-video-parent{
+.latest-video-parent{
      display: flex;
      justify-content: space-between;
 }
 .latest-video-text{
-     font-size: 25px;
-     color: #04aa6d;
+     font-size: 50px;
+     color: rgb(19, 206, 19);
      font-weight: bold;
 }
-.latest-page{
-     color: #04aa6d;
+.latest-pages{
+     color: rgb(19, 206, 19);
 }
-.latest-page span{
+.latest-pages span{
      color: black;
-     background-color: rgb(244, 225, 225);
+     background-color: rgb(213, 175, 175);
      padding: 5px;
      border-radius: 4px;
      margin: 0 10px;
-     border: 1px solid  #a705055b;
+     border: 1px solid rgb(18, 209, 18);
      cursor: pointer;
 }
