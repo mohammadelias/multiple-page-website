@@ -1,0 +1,72 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+#contact-container{
+     width: 1000px;
+     margin: auto;
+     padding-bottom: 50px;
+     background-color: rgb(200, 9, 9);
+     border-radius: 10px;
+}
+.testimonial-tittle{
+     text-align: center;
+     margin: 30px 0;
+
+}
+.testimonial-tittle h4{
+     letter-spacing: 0.3em;
+     color: rgb(216, 13, 193);
+}
+.form-parent{
+     background-color: rgb(224, 216, 233);
+     display: flex; 
+}
+.full-name{
+     display: flex;
+     margin-top: 30px;
+}
+.full-name > div > h4{
+     margin: 10px 20px;
+}
+.form-tag{
+     width: 600px;
+}
+.full-name > div > input{
+     width: 200px;
+     height: 40px;
+     margin: 0 20px;
+     border: none;
+     padding: 0 10px;
+     font-weight: bold;
+}
+.subject-h4{
+     margin: 20px 20px 10px 20px;
+}
+.subject-input{
+     width: 85%;
+     height: 40px;
+     margin: 0 20px;
+     border: none;
+     padding: 0 10px;
+     font-weight: bold;
+    
+}
+.form-textarea{
+     width: 85%;
+     height: 40px;
+     margin: 0 20px;
+     padding: 0 20px;
+     border: none;
+     font-weight: bolder;
+}
+.button{
+     background-color: darkblue;
+     color: white;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     margin: 10px 20px;
+
+}
